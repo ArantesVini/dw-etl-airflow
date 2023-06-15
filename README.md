@@ -24,3 +24,7 @@ WIth postgres image I create the databse through Docker using the command:\
 `docker run --name dsalabdw -p 5433:5432 -e POSTGRES_USER=vinicius_arantes -e POSTGRES_PASSWORD=vini170500 -e POSTGRES_DB=dwdb -d postgres`\
 
 After created, I create the pgAdmins server, a new database called `dwdb` and a new schema called `dsalabdw`\
+
+---
+
+For Airflow I use the docker version following the documentation avaliable on `https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html`, the .yaml file required is in this repo.
