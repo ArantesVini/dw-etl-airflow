@@ -1,2 +1,4 @@
 *.py.log
 logs/
+info.txt
+job_etl_lab5.py

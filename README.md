@@ -28,3 +28,10 @@ After created, I create the pgAdmins server, a new database called `dwdb` and a 
 ---
 
 For Airflow I use the docker version following the documentation avaliable on `https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html`, the .yaml file required is in this repo.
+
+---
+
+To connect both the containers of Airflow and postgres I use the command:
+`docker network disconnect bridge (container_name_postgres)`
+`docker network connect {container_name_airflow} {container_name_postgres}`
+Also, will be much easier to first up the airflow containers and then create the postgres on the same network using `--network`.
