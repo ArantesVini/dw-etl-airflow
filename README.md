@@ -13,10 +13,10 @@ This project is made as a activity of the Data Engineering course, Design and Im
 
 Softwares used to this:
 
-- postgres docker image on dockerhub: `https://hub.docker.com/_/postgres` or with command `docker pull postgres`;\
-- Anaconda python: `https://www.anaconda.com`;\
-- pgAdmin: `https://www.pgadmin.org`\
-- Apache Airflow: ``\
+- postgres docker image on dockerhub: `https://hub.docker.com/_/postgres` or with command `docker pull postgres`;
+- Anaconda python: `https://www.anaconda.com`;
+- pgAdmin: `https://www.pgadmin.org`
+- Apache Airflow (with Docker): `https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html`
 
 ---
 
